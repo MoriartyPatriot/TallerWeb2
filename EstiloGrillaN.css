@@ -1,0 +1,22 @@
+table{
+
+    width: 25%;
+    text-align: left;
+    background-color: white;
+}
+tr, th, td{
+
+    border: solid 2px black;
+}
+
+th{
+
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 120%;
+}
+
+td{
+
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100%;
+}
