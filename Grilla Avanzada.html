@@ -1,23 +1,65 @@
 <!DOCTYPE html>
 <html lang="es">
     <head>
+
         <title>GrillaAvanzada</title>
         <meta charset="UFT-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="EstiloGrillaAV.css">
+
     </head>
 
-    <Table class="Tabla1">
-        <tr>
-            <td><th>Nombre</th></td>
-            <th>DC</th>
-            <th>Identidad Secreta</th>
-            <th>link</th>
-        </tr>
-        <tr>
-            <td><th>Nombre</th></td>
-            <th>Marvel</th>
-            <th>Identidad Secreta</th>
-            <th>link</th>
-        </tr>
-    </Table>
+    <table cellspacing="1">
+
+        <thead>
+          <tr>
+            <th class="Titulo" colspan="5">DC</th>
+          </tr>
+        </thead>
+        <tbody>
+        
+          <tr style="text-align: center;">
+            <td rowspan="1" class="pestana" style="font-size: medium; font-weight: bolder;">Nombre</td>
+            <td colspan="2" style="font-size: medium; font-weight: bolder;">Identidad secreta</td>
+            <td colspan="2"style="font-size: medium; font-weight: bolder;">Link</td>
+          </tr>
+          <tr style="font-family: 'Times New Roman', Times, serif;">
+            <td rowspan="1" class="pestana">Superman</td>
+            <td colspan="2">Clark Kent</td>
+            <td colspan="2"><a href="https://hero.fandom.com/wiki/Superman_(DC)">dc</a></td>
+          </tr>
+          <tr style="font-family: 'Times New Roman', Times, serif;">
+            <td rowspan="1" class="pestana">Batman</td>
+            <td colspan="2">Bruce Wayne</td>
+            <td colspan="2"><a href="https://hero.fandom.com/wiki/Batman_(DC)">dc</a></td>
+          </tr>
+         
+          <thead>
+            <tr>
+              <th class="Titulo" colspan="5">MARVEL</th>
+            </tr>
+          </thead>
+          <tr style="text-align: center;">
+            <td rowspan="1" class="pestana"style="font-size: medium; font-weight: bolder;">Nombre</td>
+            <td colspan="2" style="font-size: medium; font-weight: bolder;">Identidad secreta</td>
+            <td colspan="2"style="font-size: medium; font-weight: bolder;">link</td>
+          </tr>
+          <tr style="font-family: 'Times New Roman', Times, serif;">
+            <td rowspan="1" class="pestana">Cap america</td>
+            <td colspan="2" >Steve Rogers</td>
+            <td colspan="2"><a href="https://hero.fandom.com/wiki/Captain_America_(Marvel)">marvel</a></td>
+          </tr>
+          <tr style="font-family: 'Times New Roman', Times, serif;">
+            <td rowspan="1" class="pestana">Spiderman</td>
+            <td colspan="2" >Peter Parker</td>
+            <td colspan="2"><a href="https://hero.fandom.com/wiki/Spider-Man_(Marvel)">marvel</a></td>
+          </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <th colspan="5">pie de tabla</th>
+            </tr>
+        </tfoot>
+
+      </table>

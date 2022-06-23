@@ -1,5 +1,5 @@
 table{
-
+    width: 40%;
     border: solid 1px black;
     text-align: left;
 }
@@ -8,4 +8,22 @@ th, td, tr{
 
     border: solid 1px black;
     
+}
+
+thead{
+
+    text-align: center;
+}
+
+td{
+    width: 5%;
+}
+
+thead{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+tbody{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
 }
